@@ -22,67 +22,63 @@ export default class App extends Component<Props> {
           </Header>
 
           <Content style={styles.background}>
-            <Card style={{ marginBottom: 20, marginTop: 20}}>
-              <CardItem header style={{ paddingBottom: 0}}>
+            <Card style={{ marginBottom: 20, marginTop: 20 }}>
+              <CardItem header style={{ paddingBottom: 0 }}>
                 <Text>Weekly Workouts</Text>
               </CardItem>
-              <CardItem >
-
-                <Chart />
-
-              </CardItem>
+              <Chart />
             </Card>
 
-            <Card style={{marginBottom: 20}}>
-              <CardItem style={{paddingRight: 0, paddingLeft: 0, paddingBottom: 0, paddingTop: 0}}>
-                  <List style={{width: '100%'}}>
-                    <ListItem itemDivider style={{marginLeft: 0, paddingLeft: 20}}>
-                      <Text style={{fontWeight: 'bold'}}>22.2.2019</Text>
-                    </ListItem>
-                    <ListItem style={{marginLeft: 0, paddingLeft: 20}}>
-                      <Text>Fran</Text>
-                    </ListItem>
-                    <ListItem style={{marginLeft: 0, paddingLeft: 20}}>
-                      <Text>4.55 minutes</Text>
-                    </ListItem>
-                    <ListItem itemDivider style={{marginLeft: 0, paddingLeft: 20}}>
-                      <Text style={{fontWeight: 'bold'}}>12.1.2019</Text>
-                    </ListItem>
-                    <ListItem style={{marginLeft: 0, paddingLeft: 20}}>
-                      <Text>1RM Back Squat</Text>
-                    </ListItem>
-                    <ListItem style={{marginLeft: 0, paddingLeft: 20}}>
-                      <Text>90kg</Text>
-                    </ListItem>
-                    <ListItem itemDivider style={{marginLeft: 0, paddingLeft: 20}}>
-                      <Text style={{fontWeight: 'bold'}}>12.1.2019</Text>
-                    </ListItem>
-                    <ListItem style={{marginLeft: 0, paddingLeft: 20}}>
-                      <Text>1RM Back Squat</Text>
-                    </ListItem>
-                    <ListItem style={{marginLeft: 0, paddingLeft: 20}}>
-                      <Text>90kg</Text>
-                    </ListItem>
-                    <ListItem itemDivider style={{marginLeft: 0, paddingLeft: 20}}>
-                      <Text style={{fontWeight: 'bold'}}>12.1.2019</Text>
-                    </ListItem>
-                    <ListItem style={{marginLeft: 0, paddingLeft: 20}}>
-                      <Text>1RM Back Squat</Text>
-                    </ListItem>
-                    <ListItem style={{marginLeft: 0, paddingLeft: 20}}>
-                      <Text>90kg</Text>
-                    </ListItem>
-                    <ListItem itemDivider style={{marginLeft: 0, paddingLeft: 20}}>
-                      <Text style={{fontWeight: 'bold'}}>12.1.2019</Text>
-                    </ListItem>
-                    <ListItem style={{marginLeft: 0, paddingLeft: 20}}>
-                      <Text>1RM Back Squat</Text>
-                    </ListItem>
-                    <ListItem style={{marginLeft: 0, paddingLeft: 20}}>
-                      <Text>90kg</Text>
-                    </ListItem>
-                  </List>
-           
+            <Card style={{ marginBottom: 20 }}>
+              <CardItem style={{ paddingRight: 0, paddingLeft: 0, paddingBottom: 0, paddingTop: 0 }}>
+                <List style={{ width: '100%' }}>
+                  <ListItem itemDivider style={{ marginLeft: 0, paddingLeft: 20 }}>
+                    <Text style={{ fontWeight: 'bold' }}>22.2.2019</Text>
+                  </ListItem>
+                  <ListItem style={{ marginLeft: 0, paddingLeft: 20 }}>
+                    <Text>Fran</Text>
+                  </ListItem>
+                  <ListItem style={{ marginLeft: 0, paddingLeft: 20 }}>
+                    <Text>4.55 minutes</Text>
+                  </ListItem>
+                  <ListItem itemDivider style={{ marginLeft: 0, paddingLeft: 20 }}>
+                    <Text style={{ fontWeight: 'bold' }}>12.1.2019</Text>
+                  </ListItem>
+                  <ListItem style={{ marginLeft: 0, paddingLeft: 20 }}>
+                    <Text>1RM Back Squat</Text>
+                  </ListItem>
+                  <ListItem style={{ marginLeft: 0, paddingLeft: 20 }}>
+                    <Text>90kg</Text>
+                  </ListItem>
+                  <ListItem itemDivider style={{ marginLeft: 0, paddingLeft: 20 }}>
+                    <Text style={{ fontWeight: 'bold' }}>12.1.2019</Text>
+                  </ListItem>
+                  <ListItem style={{ marginLeft: 0, paddingLeft: 20 }}>
+                    <Text>1RM Back Squat</Text>
+                  </ListItem>
+                  <ListItem style={{ marginLeft: 0, paddingLeft: 20 }}>
+                    <Text>90kg</Text>
+                  </ListItem>
+                  <ListItem itemDivider style={{ marginLeft: 0, paddingLeft: 20 }}>
+                    <Text style={{ fontWeight: 'bold' }}>12.1.2019</Text>
+                  </ListItem>
+                  <ListItem style={{ marginLeft: 0, paddingLeft: 20 }}>
+                    <Text>1RM Back Squat</Text>
+                  </ListItem>
+                  <ListItem style={{ marginLeft: 0, paddingLeft: 20 }}>
+                    <Text>90kg</Text>
+                  </ListItem>
+                  <ListItem itemDivider style={{ marginLeft: 0, paddingLeft: 20 }}>
+                    <Text style={{ fontWeight: 'bold' }}>12.1.2019</Text>
+                  </ListItem>
+                  <ListItem style={{ marginLeft: 0, paddingLeft: 20 }}>
+                    <Text>1RM Back Squat</Text>
+                  </ListItem>
+                  <ListItem style={{ marginLeft: 0, paddingLeft: 20 }}>
+                    <Text>90kg</Text>
+                  </ListItem>
+                </List>
+
               </CardItem>
             </Card>
 
