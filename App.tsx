@@ -8,11 +8,12 @@ import Chart from './Chart';
 
 type Props = {};
 export default class App extends Component<Props> {
+  
   render() {
 
     return (
       <Container>
-        <ImageBackground source={require('./src/assets/images/bar2.jpg')} style={{ width: '100%', height: '100%' }}>
+        <ImageBackground source={require('./src/assets/images/bar.jpg')} style={{ width: '100%', height: '100%' }}>
           <Header>
             <Left />
             <Body>
@@ -22,14 +23,14 @@ export default class App extends Component<Props> {
           </Header>
 
           <Content style={styles.background}>
-            <Card style={{ marginBottom: 20, marginTop: 20 }}>
-              <CardItem header style={{ paddingBottom: 0 }}>
+            <Card style={{ marginBottom: 30, marginTop: 30 }}>
+              <CardItem header style={{ backgroundColor: '#f5f5f5' }}>
                 <Text>Weekly Workouts</Text>
               </CardItem>
               <Chart />
             </Card>
 
-            <Card style={{ marginBottom: 20 }}>
+            <Card style={{ marginBottom: 30 }}>
               <CardItem style={{ paddingRight: 0, paddingLeft: 0, paddingBottom: 0, paddingTop: 0 }}>
                 <List style={{ width: '100%' }}>
                   <ListItem itemDivider style={{ marginLeft: 0, paddingLeft: 20 }}>
@@ -87,16 +88,16 @@ export default class App extends Component<Props> {
           <Footer>
             <FooterTab>
               <Button vertical>
-                <Icon name="home" />
+                <Icon active name="md-home" />
               </Button>
               <Button vertical>
-                <Icon name="add" />
+                <Icon name="md-add" />
               </Button>
               <Button vertical>
-                <Icon type="MaterialCommunityIcons" name="chart-line-variant" />
+                <Icon type="MaterialCommunityIcons" name="chart-line" />
               </Button>
               <Button vertical>
-                <Icon active name="book" />
+                <Icon name="md-book" />
               </Button>
               <Button vertical>
                 <Icon name="ios-more" />

@@ -30,11 +30,11 @@ export default class Chart extends Component<Props> {
                         style={{ flex: 1, height: 200, marginLeft: 5 }}
                         data={data}
                         gridMin={0}
+                       
                         contentInset={contentInset}
                         curve={shape.curveNatural}
                         svg={{ stroke: '#3f51b5' }}
-                    >
-                        <Grid />
+                    >                  
                     </LineChart>
                     <XAxis
                         style={{ marginHorizontal: -10, height: xAxisHeight }}
