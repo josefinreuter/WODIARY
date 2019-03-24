@@ -91,10 +91,10 @@ export default class App extends Component<Props> {
                 <Icon active name="md-home" />
               </Button>
               <Button vertical>
-                <Icon name="md-add" />
+                <Icon type="MaterialCommunityIcons" name="chart-line" />
               </Button>
               <Button vertical>
-                <Icon type="MaterialCommunityIcons" name="chart-line" />
+                <Icon name="md-add" />
               </Button>
               <Button vertical>
                 <Icon name="md-book" />
